@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+* {
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s; }
+
+.sections {
+  height: 100%; }
+
+section {
+  position: relative;
+  padding: 15% 0; }
+
+.font-title {
+  font-family: 'Allan', cursive; }
+
+.hero-wrapper {
+  height: 100%;
+  min-height: auto;
+  padding: 0;
+  /* Main header */ }
+  .hero-wrapper .font-title {
+    font-size: 6em; }
+  .hero-wrapper .outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+    .hero-wrapper .outer .middle {
+      display: table-cell;
+      vertical-align: middle; }
+      .hero-wrapper .outer .middle .inner {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center; }
+
+.fit-to-screen-container {
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+  .fit-to-screen-container .content {
+    position: relative;
+    display: block;
+    height: 100%; }
+    .fit-to-screen-container .content .bg-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      background: url(../img/sunrise.jpg) no-repeat;
+      background-size: cover; }
+
+.section-1 {
+  background: #fff; }
+
+.section-2 {
+  background: #333; }
+
+.section-3 {
+  background: #f1d744; }
+
+.img-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 300px; }
